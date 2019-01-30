@@ -28,7 +28,7 @@
 
 `ansible cdh-wei -m copy -a "src=/Users/wei.qi/Downloads/jdk-8u201-linux-x64.rpm dest=/root/"`
 
-8. 安装jdk
+8. 安装jdk
 
 `ansible cdh-wei -m shell -a "sh /root/cdh/init.sh 7"`
 
@@ -82,7 +82,7 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub root@wei-data1
 ```
 2. 将 authorized_keys 拷贝到本机.
 
-3. 将 authorized_keys 分发到其他节点
+3. 将 authorized_keys 分发到其他节点
 
 `ansible cdh-wei -m copy -a "src=/authorized_keys dest=/root/.ssh/"`
 
