@@ -1,0 +1,6 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+172.30.3.210 wei-data1
+172.30.3.209 wei-data2
+172.30.3.213 wei-data3
