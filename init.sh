@@ -110,7 +110,8 @@ install_spark2(){
 
     mv /opt/cloudera/parcel-repo/SPARK2-2.3.0.cloudera4-1.cdh5.13.3.p0.611179-el7.parcel.sha1 /opt/cloudera/parcel-repo/SPARK2-2.3.0.cloudera4-1.cdh5.13.3.p0.611179-el7.parcel.sha
    
-    chown -R cloudera-scm:cloudera-scm /opt/**
+    chown -R cloudera-scm:cloudera-scm /opt/cloudera/parcel-repo/**
+
 }
 
 install_kafka(){
@@ -121,7 +122,7 @@ install_kafka(){
 
     mv /opt/cloudera/parcel-repo/KAFKA-3.1.1-1.3.1.1.p0.2-el7.parcel.sha1 /opt/cloudera/parcel-repo/KAFKA-3.1.1-1.3.1.1.p0.2-el7.parcel.sha
    
-    chown -R cloudera-scm:cloudera-scm /opt/**
+    chown -R cloudera-scm:cloudera-scm /opt/cloudera/parcel-repo/**
 }
 
 case $1 in
