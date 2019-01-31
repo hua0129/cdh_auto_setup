@@ -12,6 +12,8 @@ initAliYum(){
 initSoft(){
     mkdir -p /usr/share/java/
     yum install -y net-tools vim  ntp wget httpd mod_ssl openssl
+    yum install -y cyrus-sasl*
+
 }
 
 initHost(){
